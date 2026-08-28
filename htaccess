@@ -1,0 +1,93 @@
+ErrorDocument 403 /project8787083/page68187071.html
+ErrorDocument 404 /project8787083/page68187071.html
+
+DirectoryIndex page44957205.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://decorclassik\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.decorclassik.ru [NC]
+RewriteRule ^(.*)$ https://decorclassik\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project8787083/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^catalog$ page49176979.html [NC]
+RewriteRule ^catalog/$ page49176979.html [NC]
+
+RewriteRule ^stoli$ page68184743.html [NC]
+RewriteRule ^stoli/$ page68184743.html [NC]
+
+RewriteRule ^sty$ page68184757.html [NC]
+RewriteRule ^sty/$ page68184757.html [NC]
+
+RewriteRule ^divan$ page68184807.html [NC]
+RewriteRule ^divan/$ page68184807.html [NC]
+
+RewriteRule ^banketca$ page68184767.html [NC]
+RewriteRule ^banketca/$ page68184767.html [NC]
+
+RewriteRule ^forma$ page68184891.html [NC]
+RewriteRule ^forma/$ page68184891.html [NC]
+
+RewriteRule ^prod$ page68184949.html [NC]
+RewriteRule ^prod/$ page68184949.html [NC]
+
+RewriteRule ^tonirovka$ page50657539.html [NC]
+RewriteRule ^tonirovka/$ page50657539.html [NC]
+
+RewriteRule ^material$ page58660135.html [NC]
+RewriteRule ^material/$ page58660135.html [NC]
+
+RewriteRule ^plastik$ page50971529.html [NC]
+RewriteRule ^plastik/$ page50971529.html [NC]
+
+RewriteRule ^keramika$ page50971569.html [NC]
+RewriteRule ^keramika/$ page50971569.html [NC]
+
+RewriteRule ^tkani$ page50971365.html [NC]
+RewriteRule ^tkani/$ page50971365.html [NC]
+
+RewriteRule ^ws$ page68511639.html [NC]
+RewriteRule ^ws/$ page68511639.html [NC]
+
+RewriteRule ^nov$ page68142367.html [NC]
+RewriteRule ^nov/$ page68142367.html [NC]
+
+RewriteRule ^uxodzm$ page51776461.html [NC]
+RewriteRule ^uxodzm/$ page51776461.html [NC]
+
+RewriteRule ^dost$ page50040715.html [NC]
+RewriteRule ^dost/$ page50040715.html [NC]
+
+RewriteRule ^otzov$ page59131161.html [NC]
+RewriteRule ^otzov/$ page59131161.html [NC]
+
+RewriteRule ^dost2$ page50058055.html [NC]
+RewriteRule ^dost2/$ page50058055.html [NC]
+
+RewriteRule ^dogovor1$ page51665471.html [NC]
+RewriteRule ^dogovor1/$ page51665471.html [NC]
+
+RewriteRule ^dogovor2$ page50971167.html [NC]
+RewriteRule ^dogovor2/$ page50971167.html [NC]
+
+RewriteRule ^yesdk$ page52205439.html [NC]
+RewriteRule ^yesdk/$ page52205439.html [NC]
+
+RewriteRule ^nodk$ page52211253.html [NC]
+RewriteRule ^nodk/$ page52211253.html [NC]
+
+RewriteRule ^cook$ page57770865.html [NC]
+RewriteRule ^cook/$ page57770865.html [NC]
+
+RewriteRule ^non$ page68187071.html [NC]
+RewriteRule ^non/$ page68187071.html [NC]
+
+RewriteRule ^decorklassik-lending$ page67299093.html [NC]
+RewriteRule ^decorklassik-lending/$ page67299093.html [NC]
+
+

@@ -1,0 +1,27 @@
+User-Agent: *
+Disallow: /page51665471.html
+Disallow: /dogovor1
+Disallow: /page50971167.html
+Disallow: /dogovor2
+Disallow: /page57770865.html
+Disallow: /cook
+Disallow: /page55995977.html
+Disallow: /menu
+Disallow: /page55996063.html
+Disallow: /pop
+Disallow: /page68187071.html
+Disallow: /non
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: http://decorclassik.ru/sitemap.xml
+Sitemap: http://decorclassik.ru/sitemap-store.xml
+Sitemap: http://decorclassik.ru/sitemap-feeds.xml
